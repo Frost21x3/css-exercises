@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+.first {
+    background-color: black;
+    color: white;
+}
+
+.second {
+    background-color: yellow;
+}
+
+/* should've just been button as selector but this is grouping exercise */
+.first,
+.second {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
